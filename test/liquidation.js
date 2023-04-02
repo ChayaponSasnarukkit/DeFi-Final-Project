@@ -205,6 +205,6 @@ describe("Liquidation", function () {
         (overrides = { gasPrice: gasPrice })
       )
     ).to.be.reverted;
-    console.log("Transaction Rollback");
+    console.log("Can't repay flash loan => Transaction Reverted");
   });
 });
